@@ -2,11 +2,46 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Prezzo Biglietto</title>
   </head>
   <body>
+    <main>
+      <div class="container">
+        <div class= "title">
+          <h1>Calcola il prezzo del tuo biglietto</h1>
+        </div>
+        <div class = "ticket">
+          <div class ="box">
+            <h2> Il prezzo del tuo biglietto è di:
+            <h2>
+          </div>
+          <div class="box">
+            <h2 id = "price"></h2>
+          </div>
+          <div class="box">
+            <h2>euro</h2>
+          </div>
+        </div>
+        <div class = "resoconto">
+          <div class="età_passeggero">
+            <h3>Età Passeggero:</h3>
+            <p id = "age"></p>
+          </div>
+          <div class = "numero_km">
+            <h3>Numero Km:</h3>
+            <p id = "km"></p>
+          </div>
+          <div class = "sconto_applicato">
+            <h3>Sconto:</h3>
+            <p id = "sconto"></p>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="js/main.js">
-
     </script>
   </body>
 </html>
